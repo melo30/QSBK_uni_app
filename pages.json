@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/demo/demo",
+			"style": {
+				"navigationBarTitleText": "view和Text组件"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "糗事百科"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "动态"
+			}
+		},
+		{
+			"path": "pages/paper/paper",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#ADADAD",
+		"selectedColor":"#FEE42A",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"糗事",
+				"iconPath":"static/tabbar/shouye.png",
+				"selectedIconPath":"static/tabbar/shouye_selected.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"动态",
+				"iconPath":"static/tabbar/dongtai.png",
+				"selectedIconPath":"static/tabbar/dongtai_selected.png"
+			},
+			{
+				"pagePath":"pages/paper/paper",
+				"text":"小纸条",
+				"iconPath":"static/tabbar/xiaozhitiao.png",
+				"selectedIconPath":"static/tabbar/xiaozhitiao_selected.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"static/tabbar/wode.png",
+				"selectedIconPath":"static/tabbar/wode_selected.png"
+			}
+		]
+	}
+}
