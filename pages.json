@@ -1,6 +1,61 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 	{
+		"path": "pages/index/index",
+		"style": {
+			"app-plus": {
+				"scrollIndicator":"none",//隐藏滚动条
+				"titleNView": {
+					"searchInput": {
+						"align":"center",
+						"backgroundColor":"#F7F7F7",
+						"borderRadius":"4px",
+						"placeholder":"搜索糗事",
+						"placeholderColor":"#CCCCCC",
+						"disabled":false //不可以输入，跳转到下个页面（现在App比较流行这种）
+					}
+				}
+				
+			}
+		}
+	},
+	{
+		"path": "pages/news/news",
+		"style": {
+			"navigationBarTitleText": "动态"
+		}
+	},
+	{
+		"path": "pages/paper/paper",
+		"style": {
+			"navigationBarTitleText": "聊天"
+		}
+	},
+	{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "我的"
+		}
+	},
+	{
+	    "path" : "pages/demo8/demo8",
+	    "style" : {
+			"navigationBarTitleText":"计算属性"
+		}
+	},
+	{
+	    "path" : "pages/demo7/demo7",
+	    "style" : {
+			"navigationBarTitleText":"监听属性"
+		}
+	},
+	{
+	    "path" : "pages/demo6/demo6",
+	    "style" : {
+			"navigationBarTitleText":"事件处理器"
+		}
+	},
+	{
 	    "path" : "pages/demo5/demo5",
 	    "style" : {
 			"navigationBarTitleText":"列表渲染"
@@ -29,36 +84,10 @@
 			"style": {
 				"navigationBarTitleText": "view和Text组件"
 			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "糗事百科"
-			}
-		},
-		{
-			"path": "pages/news/news",
-			"style": {
-				"navigationBarTitleText": "动态"
-			}
-		},
-		{
-			"path": "pages/paper/paper",
-			"style": {
-				"navigationBarTitleText": "聊天"
-			}
-		},
-		{
-			"path": "pages/home/home",
-			"style": {
-				"navigationBarTitleText": "我的"
-			}
 		}
-        ,{
-            "path" : "pages/demo6/demo6",
-            "style" : {}
-        }
     ],
+	
+	// 全局配置
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

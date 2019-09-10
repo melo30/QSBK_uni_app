@@ -28,7 +28,7 @@
 			{{key}} - {{val}}
 		</view> -->
 		
-		
+		<!-- 重点：官方建议：列表循环用block包在view外面，如下写法 -->
 		<block v-for="(val,key) in objlist" :key="key">
 			<view class="font">
 				{{key}} - {{val}}

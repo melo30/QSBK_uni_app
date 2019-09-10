@@ -12,6 +12,8 @@
 		<!-- <view class="box" v-show="(age>20)">{{age}}</view> -->
 		<!-- <button type="default" @tap="changeAge()()">隐藏</button> -->
 		
+		
+		<!-- 重点：官方建议：条件循环用template包在view外面，如下写法 -->
 		<template v-if="isShow">
 			<view class="box">box</view>
 		</template>
