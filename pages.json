@@ -6,14 +6,35 @@
 			"app-plus": {
 				"scrollIndicator":"none",//隐藏滚动条
 				"titleNView": {
+					//搜索框配置
 					"searchInput": {
 						"align":"center",
 						"backgroundColor":"#F7F7F7",
 						"borderRadius":"4px",
 						"placeholder":"搜索糗事",
 						"placeholderColor":"#CCCCCC",
-						"disabled":false //不可以输入，跳转到下个页面（现在App比较流行这种）
-					}
+						"disabled":true //true表示当前页面不可以输入，跳转到下个页面去输入（这也是现在App比较流行这种）
+					},
+					//配置按钮
+					"buttons":[
+						//左边
+						{
+							"color":"FF9619",
+							"colorPressed":"#BBBBBB",
+							"float":"left",
+							"fontSize":"22px",
+							"fontSrc":""
+						},
+						
+						//右边
+						{
+							"color":"000000",
+							"colorPressed":"#BBBBBB",
+							"float":"right",
+							"fontSize":"22px",
+							"fontSrc":""
+						}
+					]
 				}
 				
 			}
