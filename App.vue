@@ -20,4 +20,8 @@
 	
 	/* 引入动画库 */
 	@import './common/animate.css';
+	
+	/* 公共样式 */
+	@import './common/common.css';
+	
 </style>
